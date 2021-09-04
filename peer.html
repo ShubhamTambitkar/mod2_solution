@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+	<title>Peer_Assignment</title>
+	  <link rel="stylesheet" href="stylesheet1.css">
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	h1{
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	h3{
+		position: relative;
+		float:right;
+		padding-right: 30px;
+	}
+	
+	.row{
+		width: 100%;
+        
+       padding: 10px;
+
+		}
+	/* for desktop devices*/
+	@media(min-width: 992px){
+		.col-lg-4{
+			float: left;
+
+			/*border: 1px solid green;*/
+		}
+		.col-lg-4{
+			width: 33%;
+		}
+	}
+	/*for medium scale devices*/
+	@media(min-width: 768px) and (max-width: 991px){
+		.col-md-6,.col-md-12{
+			float: left;
+			/*border: 1px solid green;*/
+		}
+		.col-md-6{
+			width: 50%;
+		}
+		.col-md-12{
+            width:100%;
+		}
+
+	} 
+	/*for mobile devices*/
+	@media(max-width: 767px){
+		.col-sm-12{
+            float:left;
+            /*border:1px solid black;*/
+		}
+		.col-sm-12{
+			width: 100%
+		}
+	}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+	
+		   <div class=" Chicken col-lg-4 col-md-6 col-sm-12">
+		        <div class="smallchicken">
+			      Chicken
+		        </div>
+              <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+		    </div>
+
+		    <div class=" Chicken col-lg-4 col-md-6 col-sm-12">
+		        <div class="smallchicken" id="beef">
+			      Beef
+		        </div>
+              <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+		    </div>
+
+		    <div class=" Chicken col-lg-4  col-sm-12">
+		        <div class="smallchicken" id="sushi">
+			      Sushi
+		        </div>
+              <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+		    </div>
+   
+
+</body>
+</html>

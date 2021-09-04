@@ -1,0 +1,30 @@
+.Chicken {
+    	border: solid 1px black;
+    	background-color: grey;
+    }
+
+    .smallchicken {
+    	border: solid 1px black;
+    	position: relative;
+    	float: right;
+    	
+    	background-color: pink;
+    	width:auto;
+    	height: auto;
+    	margin-bottom: 150px;
+    }
+
+
+    .para {
+    	position: relative;
+    	top : 10px;
+    	text-align: center;
+    }
+
+    #beef{
+    	background-color: yellow;
+    }
+
+    #sushi{
+    	background-color: green;
+    }
